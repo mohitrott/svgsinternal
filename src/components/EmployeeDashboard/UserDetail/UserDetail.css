@@ -1,0 +1,15 @@
+.userImage{
+    float: right;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.userData{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.userDataContainer{
+    background-color: lightgray;
+    height: 500px;
+}

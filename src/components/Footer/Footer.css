@@ -1,0 +1,25 @@
+.footer{
+    color: white;
+    height: 6rem;
+    width: 100%;
+    background-color: cornflowerblue;
+    position: absolute;
+    bottom: 0px;
+}
+.footer ul{
+    float: left;
+}
+.footer ul li{
+ list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.copyright{
+    float: right;
+    margin: 20px;
+}

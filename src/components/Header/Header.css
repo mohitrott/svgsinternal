@@ -1,0 +1,21 @@
+.header-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height: 60px;
+}
+.logo{
+    height: 100%;
+}
+.logo img{
+    width: 100px;
+}
+.comp-welcome{
+    color: #21ba9be0;
+}
+.logout{
+    height: 26px;
+    width: 100px;
+    margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+.sideBarContainer{
+    width: 20%;
+    height: 30rem;
+    background-color: #0f0d0d;
+    float: left;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+.sideDataPopulate{
+    width: 80%;
+    float: right;
+}
