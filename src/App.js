@@ -10,11 +10,11 @@ function App() {
     <BrowserRouter>
       <div>
         <Switch>
-          <Route path="/" exact component={LoginPage} />
+          {/* <Route path="/" exact component={LoginPage} />
           <Route path='/login' exact component={LoginPage} />
           <Route path='/employeeDashboard' component={EmployeeDashboard} />
           <Route path='/employeeDashboard/userDetail' component={UserDetail}/>
-          <Route path='/adminDashboard' component={AdminDashboard} />
+          <Route path='/adminDashboard' component={AdminDashboard} /> */}
         </Switch>
       </div>
     </BrowserRouter>
