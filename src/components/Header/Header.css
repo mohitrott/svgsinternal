@@ -15,7 +15,6 @@
     color: #21ba9be0;
 }
 .logout{
-    height: 26px;
-    width: 100px;
-    margin-top: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
 }

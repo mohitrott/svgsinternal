@@ -9,7 +9,7 @@ function SideBar(props) {
             <ul>
                 <li><Link to='/employeeDashboard/holidayList'>{props.link1}</Link></li>
                 <li><Link to='/employeeDashboard/timeSheet'>Time sheet</Link></li>
-                <li><Link to='#timesheet'>leave application</Link></li>
+                <li><Link to='/employeeDashboard/leaveApplication'>leave application</Link></li>
                 <li><Link to='#timesheet'>salary slip</Link></li>
                 <li><Link to='#timesheet'>Time sheet</Link></li>
                 <li><Link to='/employeeDashboard/userDetail'>User Detail</Link></li>

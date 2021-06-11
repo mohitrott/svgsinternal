@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import UserDetail from '../UserDetail/UserDetail';
 import HolidayList from '../HolidayList/HolidayList';
 import TimeSheet from '../TimeSheet/TimeSheet';
+import LeaveApplication from '../LeaveApplication/LeaveApplication';
 
 export default class EmployeeDataDisplay extends Component {
     constructor(props){
@@ -18,8 +19,10 @@ export default class EmployeeDataDisplay extends Component {
                 break;
             case '/employeeDashboard/holidayList':
                 return <HolidayList/>
-                case '/employeeDashboard/timeSheet':
-                    return <TimeSheet/>
+            case '/employeeDashboard/timeSheet':
+                return <TimeSheet/>
+            case  '/employeeDashboard/leaveApplication':
+                return <LeaveApplication/>   
             default:
                 break;
         }
