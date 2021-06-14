@@ -1,94 +1,122 @@
 {
-    "employees": [
-        {
-            "userId": "1",
-            "jobTitleName": "Developer",
-            "firstName": "Dev",
-            "lastName": "Ratan",
-            "employeeCode": "E2",
-            "phoneNumber": "9213512004",
-            "emailAddress": "Dev@gmail.com",
-            "imageUrl": "data:image/jpeg;base64,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"
-        },
-        {
-            "userId": "2",
-            "jobTitleName": "Tester",
-            "firstName": "Amit",
-            "lastName": "Kumar",
-            "employeeCode": "E1",
-            "phoneNumber": "9856557989",
-            "emailAddress": "Amit@gmail.com"
-        },
-        {
-            "userId": "2",
-            "jobTitleName": "Business Analyst",
-            "firstName": "Shiv",
-            "lastName": "Sharma",
-            "employeeCode": "E1",
-            "phoneNumber": "7350222789",
-            "emailAddress": "Shiv@gmail.com"
-        }
-    ],
-    "holiday": [
-        {
-            "festival": "New Year",
-            "date": "January 01, 2021",
-            "day":"Friday"
-        },
-        {
-            "festival": "Republic Day",
-            "date": "January 26, 2021 ",
-            "day":"Tuesday"
-        },
-        {
-            "festival": "Holi",
-            "date": "March 29, 2021",
-            "day":"Monday"
-        },
-        {
-            "festival": "Independence Day",
-            "date": "August 15, 2021",
-            "day":"Sunday"
-        },
-        {
-            "festival": "Raksha Bandhan",
-            "date": "August 22, 2021",
-            "day":"Sunday"
-        },
-        {
-            "festival": "Janmashtami",
-            "date": "August 30, 2021",
-            "day":"Monday"
-        },
-        {
-            "festival": "Gandhi Jayanti",
-            "date": "October 02, 2021",
-            "day":"Saturday"
-        },
-        {
-            "festival": "Dussehra",
-            "date": "October 15, 2021",
-            "day":"Friday"
-        },
-        {
-            "festival": "Deepavali",
-            "date": "November 04, 2021",
-            "day":"Thursday"
-        },
-        {
-            "festival": "Deepavali",
-            "date": "November 05, 2021",
-            "day":"Friday"
-        },
-        {
-            "festival": "Guru Nanak's Birthday",
-            "date": "November 19, 2021",
-            "day":"Friday"
-        },
-        {
-            "festival": "Christmas",
-            "date": "December 25, 2021",
-            "day":"Saturday"
-        }
-    ]
+  "employees": [
+    {
+      "userId": "1",
+      "jobTitleName": "Developer",
+      "firstName": "Dev",
+      "lastName": "Ratan",
+      "employeeCode": "E2",
+      "phoneNumber": "9213512004",
+      "emailAddress": "Dev@gmail.com",
+      "imageUrl": "data:image/jpeg;base64,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"
+    },
+    {
+      "userId": "2",
+      "jobTitleName": "Tester",
+      "firstName": "Amit",
+      "lastName": "Kumar",
+      "employeeCode": "E1",
+      "phoneNumber": "9856557989",
+      "emailAddress": "Amit@gmail.com"
+    },
+    {
+      "userId": "2",
+      "jobTitleName": "Business Analyst",
+      "firstName": "Shiv",
+      "lastName": "Sharma",
+      "employeeCode": "E1",
+      "phoneNumber": "7350222789",
+      "emailAddress": "Shiv@gmail.com"
+    }
+  ],
+  "holiday": [
+    {
+      "festival": "New Year",
+      "date": "January 01, 2021",
+      "day": "Friday"
+    },
+    {
+      "festival": "Republic Day",
+      "date": "January 26, 2021 ",
+      "day": "Tuesday"
+    },
+    {
+      "festival": "Holi",
+      "date": "March 29, 2021",
+      "day": "Monday"
+    },
+    {
+      "festival": "Independence Day",
+      "date": "August 15, 2021",
+      "day": "Sunday"
+    },
+    {
+      "festival": "Raksha Bandhan",
+      "date": "August 22, 2021",
+      "day": "Sunday"
+    },
+    {
+      "festival": "Janmashtami",
+      "date": "August 30, 2021",
+      "day": "Monday"
+    },
+    {
+      "festival": "Gandhi Jayanti",
+      "date": "October 02, 2021",
+      "day": "Saturday"
+    },
+    {
+      "festival": "Dussehra",
+      "date": "October 15, 2021",
+      "day": "Friday"
+    },
+    {
+      "festival": "Deepavali",
+      "date": "November 04, 2021",
+      "day": "Thursday"
+    },
+    {
+      "festival": "Deepavali",
+      "date": "November 05, 2021",
+      "day": "Friday"
+    },
+    {
+      "festival": "Guru Nanak's Birthday",
+      "date": "November 19, 2021",
+      "day": "Friday"
+    },
+    {
+      "festival": "Christmas",
+      "date": "December 25, 2021",
+      "day": "Saturday"
+    }
+  ],
+  "leaveData": [
+    {
+      "firstName": "BHOOP",
+      "lastName": "ROUTELA",
+      "empId": "26",
+      "email": "ganjai.routela@gmail.com",
+      "position": "developer",
+      "manager": "gautam",
+      "leaveStart": "2021-06-15",
+      "leaveEnd": "2021-06-30",
+      "leaveType": "Sick",
+      "comments": "sick",
+      "id": 1
+    },
+    {
+      "firstName": "mohit",
+      "lastName": "rottela",
+      "empId": "28",
+      "email": "mohit.r@svgsitsolution.com",
+      "position": "developer",
+      "manager": "gautam",
+      "leaveStart": "2021-06-15",
+      "leaveEnd": "2021-06-30",
+      "leaveType": "Sick",
+      "comments": "sick",
+      "id": 2
+    }
+  ]
 }
