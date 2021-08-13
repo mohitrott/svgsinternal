@@ -43,7 +43,9 @@ export default class HolidayList extends Component {
         </table>
         return (
             <div className='holiday_list_table'>
+                <div className='holiday_display'>
                 {holidayTable}
+                </div>      
             </div>
         )
     }
